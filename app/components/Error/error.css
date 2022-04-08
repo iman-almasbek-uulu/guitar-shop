@@ -1,0 +1,6 @@
+.error {
+    padding: 20px 40px ;
+    background: rgb(244, 33, 69);
+    color: var(--color-white);
+    text-align: center;
+}

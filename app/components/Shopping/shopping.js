@@ -11,8 +11,6 @@ class Shopping {
 
         CATALOG.forEach(({id,name,price}) => { 
 
-            
-            console.log(sumCatalog);
             if (productsStore.indexOf(id) !== -1) {
                 htmlCatalog += `
                     <tr>
