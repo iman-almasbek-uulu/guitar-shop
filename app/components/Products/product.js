@@ -14,6 +14,8 @@ class Products {
             element.classList.remove(this.classNameActive);
             element.innerHTML = this.labelAdd;
         }
+
+        header.render(products.length);
     }
 
 
@@ -30,8 +32,8 @@ class Products {
                 activeText = this.labelAdd;
 
             }else {
-                activeText = " "+this.labelRemove;
-                activeClass = this.classNameActive;
+                activeText = this.labelRemove;
+                activeClass =" " + this.classNameActive;
             }
 
             htmlCatalog += `
